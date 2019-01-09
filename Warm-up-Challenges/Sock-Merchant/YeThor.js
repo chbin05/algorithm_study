@@ -4,10 +4,7 @@
 // Time Complexity : O(2n)
 
 function sockMerchant(n, ar) {
-  const socksGroup = groupingSocks(ar);
-  const pairs = countPair(socksGroup);
-
-  return pairs;
+  return countPair(groupingSocks(ar));
 }
 
 function groupingSocks(socks) {
