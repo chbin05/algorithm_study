@@ -1,7 +1,7 @@
 // Complete the sockMerchant function below.
 // https://www.hackerrank.com/challenges/sock-merchant/problem
 
-// Time Complexity : O(2n)
+// Time Complexity : O(n)
 
 function sockMerchant(n, ar) {
   return countPair(groupingSocks(ar));
