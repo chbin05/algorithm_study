@@ -1,3 +1,5 @@
+// Time Complexity : O(n)
+
 function jumpingOnClouds(c) {
   let index = 0;
   let jumpingCount = 0;
