@@ -38,5 +38,4 @@ function swap(q, i, j) {
     const temp = q[i];
     q[i] = q[j];
     q[j] = temp;
-    return q;
 }
